@@ -1,14 +1,16 @@
+
+
 public class Main {
 	public static void main(String[] args) {
 		// Задание 2
-		Instrument[] instruments = new Instrument[3];
+		INSTRUMENT[] INSTRUMENTY = new INSTRUMENT[3];
 
-		instruments[0] = new Guitar(9);
-		instruments[1] = new Drum(9);
-		instruments[2] = new Truba(9);
+		INSTRUMENTY[0] = new Guitar(9);
+		INSTRUMENTY[1] = new Drum(9);
+		INSTRUMENTY[2] = new Truba(9);
 
-		for (int i = 0; i < instruments.length; i++) {
-			instruments[i].play();
+		for (int i = 0; i < INSTRUMENTY.length; i++) {
+			INSTRUMENTY[i].play();
 		}
 
 		// Задание 3
