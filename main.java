@@ -5,20 +5,20 @@ public class Main {
 		// Задание 2
 		INSTRUMENT[] INSTRUMENTY = new INSTRUMENT[3];
 
-		INSTRUMENTY[0] = new Guitar(9);
-		INSTRUMENTY[1] = new Drum(9);
-		INSTRUMENTY[2] = new Truba(9);
+		INSTRUMENTY[0] = new GITARA(9);
+		INSTRUMENTY[1] = new PIANINO(9);
+		INSTRUMENTY[2] = new TUBA(9);
 
 		for (int i = 0; i < INSTRUMENTY.length; i++) {
-			INSTRUMENTY[i].play();
+			INSTRUMENTY[i].MUZIKA();
 		}
 
 		// Задание 3
 
-			for (Seasons season : Seasons.values()) {
-				System.out.printf("Name: %s, avg_temperature: %s, ", season.name(), season.getAverageTemperature());
-				season.getDescription(season);
+			for (VREMYANA_GODA VREMYA_GODA :VREMYANA_GODA.values()) {
+				System.out.printf("Название: %s, avg_TEMPERATURA: %s, ", VREMYA_GODA.name(), VREMYA_GODA.getTEMPERATURA());
+				VREMYA_GODA.getOPISANIE(VREMYA_GODA);
 			}
-			System.out.printf("Favorite season: %s",Seasons.WINTER);
+			System.out.printf("Любимое Время года: %s",VREMYA_GODA.ZIMA);
 	}
 }
