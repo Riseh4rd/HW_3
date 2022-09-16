@@ -9,7 +9,7 @@ public class GITARA implements INSTRUMENT{
 
 
 	@Override
-	public void MUZIKA() {
+	public void PLAY() {
 		System.out.printf("INSTRUMENT: GITARA, KOLI4ESTVO_STRUN: %d\n", this.KOLI4ESTVO_STRUN);
 	}
 }
