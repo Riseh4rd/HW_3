@@ -6,11 +6,11 @@ public class Main {
 		INSTRUMENT[] INSTRUMENTY = new INSTRUMENT[3];
 
 		INSTRUMENTY[0] = new GITARA(9);
-		INSTRUMENTY[1] = new PIANINO(9);
-		INSTRUMENTY[2] = new TUBA(9);
+		INSTRUMENTY[1] = new DRUM(9);
+		INSTRUMENTY[2] = new TRUBA(9);
 
 		for (int i = 0; i < INSTRUMENTY.length; i++) {
-			INSTRUMENTY[i].MUZIKA();
+			INSTRUMENTY[i].PLAY();
 		}
 
 		// Задание 3
